@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight">Chundru Hitesh</span></h1>
+            <h2>Computer Science Student</h2>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="images/student.jpg" alt="Profile Picture" class="profile-pic">
+                <div class="about-text">
+                    <p>I'm a passionate computer science student specializing in web development and data analytics at SRM INSTITUTE OF SCIENCE AND TECHNOLOGY. Currently pursuing my degree, I enjoy creating practical solutions through code.</p>
+                    <p>When I'm not programming, I love to play carroms , read books.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-code"></i>
+                    <h3>C</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-file-code"></i>
+                    <h3>C++</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    <h3>MySQL</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/hqdefault.jpg" alt="Project 1">
+                    <h3>Cash Tally Software</h3>
+                    <p>A personal finance management tool that helps users track income, expenses, and savings in real-time. Designed to simplify budgeting for students and small businesses.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/image16.jpg" alt="Project 2">
+                    <h3>Minor Data Visualisation project</h3>
+                    <p>An interactive visualization of the UCI Heart Disease Dataset that identifies risk patterns using charts and filters.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/hiteshchundru005" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/hitesh-chowdary-82a374259/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/Hitesh474590002" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:chowdaryhitesh8@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
